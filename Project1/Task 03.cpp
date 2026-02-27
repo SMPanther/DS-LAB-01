@@ -22,10 +22,10 @@ public:
     Book(string t, string a, int p) : title(t), author(a), pages(p) {}
 
     string getTitle() const { return title; }
+    int getPages() const { return pages; }
 
     void display() const override {
-        cout << "Book: " << title << " by " << author
-            << ", Pages: " << pages << endl;
+        cout << "Book: " << title << " by " << author << ", Pages: " << pages << endl;
     }
 };
 
@@ -42,10 +42,10 @@ public:
     Newspaper(string n, string d, string e) : name(n), date(d), edition(e) {}
 
     string getName() const { return name; }
+    string getEdition() const { return edition; }
 
     void display() const override {
-        cout << "Newspaper: " << name << ", Date: " << date
-            << ", Edition: " << edition << endl;
+        cout << "Newspaper: " << name << ", Date: " << date << ", Edition: " << edition << endl;
     }
 };
 
@@ -89,6 +89,30 @@ public:
         }
     }
 
+    void sortNewspapersByEdition() {
+        for (int i = 0; i < newspaperCount - 1; i++) {
+            for (int j = 0; j < newspaperCount - 1 - i; j++) {
+                if (newspapers[j].getEdition() > newspapers[j + 1].getEdition()) {
+                    Newspaper temp = newspapers[j];
+                    newspapers[j] = newspapers[j + 1];
+                    newspapers[j + 1] = temp;
+                }
+            }
+        }
+    }
+
+    void sortBooksByPages() {
+        for (int i = 0; i < bookCount - 1; i++) {
+            for (int j = 0; j < bookCount - 1 - i; j++) {
+                if (books[j].getPages() > books[j + 1].getPages()) {
+                    Book temp = books[j];
+                    books[j] = books[j + 1];
+                    books[j + 1] = temp;
+                }
+            }
+        }
+    }
+
     Book* searchBookByTitle(const string& title) {
         for (int i = 0; i < bookCount; i++) 
         {
@@ -128,6 +152,14 @@ int main() {
     // Display the entire collection
     cout << "Library Collection:\n";
     library.displayCollection();
+
+    // Sort books by pages and newspapers by edition
+    library.sortBooksByPages();
+    library.sortNewspapersByEdition();
+
+    cout << "\nAfter Sorting:\n";
+    library.displayCollection();
+
 
     // Search for a book by title
     Book* foundBook = library.searchBookByTitle("The Catcher in the Rye");
