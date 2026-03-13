@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DSA_lab 01", "Project1\Project1.vcxproj", "{22A7295D-A8BE-4A86-9964-5C74021C0F3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DSA LABS", "DSA LABS", "{11DD3850-CA4A-42F0-8CA0-E715BEECD5DD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DS-Lab 2", "..\..\..\..\..\VISUAL STUDIO PROJECTS\DS-Lab 2\DS-Lab 2\DS-Lab 2.vcxproj", "{EC136BAE-A145-4D46-A041-384B3939ADB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab 02", "Lab 02", "{9E670A75-6392-4463-A81F-B1279582EB5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task 01", "Task 01", "{60C77120-3D8E-4184-A9E5-0A3A2C23AA07}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\VISUAL STUDIO PROJECTS\DS-Lab 2\DS-Lab 2\AbstractArray.h = ..\..\..\..\..\VISUAL STUDIO PROJECTS\DS-Lab 2\DS-Lab 2\AbstractArray.h
+		..\..\..\..\..\VISUAL STUDIO PROJECTS\DS-Lab 2\DS-Lab 2\MyArray.h = ..\..\..\..\..\VISUAL STUDIO PROJECTS\DS-Lab 2\DS-Lab 2\MyArray.h
+		..\..\..\..\..\VISUAL STUDIO PROJECTS\DS-Lab 2\DS-Lab 2\Task 01.cpp = ..\..\..\..\..\VISUAL STUDIO PROJECTS\DS-Lab 2\DS-Lab 2\Task 01.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task 02", "Task 02", "{3DA8A427-9877-420B-A057-94D960B62E61}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\VISUAL STUDIO PROJECTS\DS-Lab 2\DS-Lab 2\MyStack.h = ..\..\..\..\..\VISUAL STUDIO PROJECTS\DS-Lab 2\DS-Lab 2\MyStack.h
+		..\..\..\..\..\VISUAL STUDIO PROJECTS\DS-Lab 2\DS-Lab 2\Stack.h = ..\..\..\..\..\VISUAL STUDIO PROJECTS\DS-Lab 2\DS-Lab 2\Stack.h
+		..\..\..\..\..\VISUAL STUDIO PROJECTS\DS-Lab 2\DS-Lab 2\Task 02.cpp = ..\..\..\..\..\VISUAL STUDIO PROJECTS\DS-Lab 2\DS-Lab 2\Task 02.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task 03", "Task 03", "{93B30624-716B-4A5B-A764-2EA3E5E28935}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task 04", "Task 04", "{863EAED6-0162-4F34-A635-5290D83AB9A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task 05", "Task 05", "{0EA03AFF-093E-4C9F-BEE2-FF31D2A55825}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab 01", "Lab 01", "{A5ACC97E-B20C-476C-A39C-6ACF963A2C9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22A7295D-A8BE-4A86-9964-5C74021C0F3E}.Debug|x64.ActiveCfg = Debug|x64
+		{22A7295D-A8BE-4A86-9964-5C74021C0F3E}.Debug|x64.Build.0 = Debug|x64
+		{22A7295D-A8BE-4A86-9964-5C74021C0F3E}.Debug|x86.ActiveCfg = Debug|Win32
+		{22A7295D-A8BE-4A86-9964-5C74021C0F3E}.Debug|x86.Build.0 = Debug|Win32
+		{22A7295D-A8BE-4A86-9964-5C74021C0F3E}.Release|x64.ActiveCfg = Release|x64
+		{22A7295D-A8BE-4A86-9964-5C74021C0F3E}.Release|x64.Build.0 = Release|x64
+		{22A7295D-A8BE-4A86-9964-5C74021C0F3E}.Release|x86.ActiveCfg = Release|Win32
+		{22A7295D-A8BE-4A86-9964-5C74021C0F3E}.Release|x86.Build.0 = Release|Win32
+		{EC136BAE-A145-4D46-A041-384B3939ADB1}.Debug|x64.ActiveCfg = Debug|x64
+		{EC136BAE-A145-4D46-A041-384B3939ADB1}.Debug|x64.Build.0 = Debug|x64
+		{EC136BAE-A145-4D46-A041-384B3939ADB1}.Debug|x86.ActiveCfg = Debug|Win32
+		{EC136BAE-A145-4D46-A041-384B3939ADB1}.Debug|x86.Build.0 = Debug|Win32
+		{EC136BAE-A145-4D46-A041-384B3939ADB1}.Release|x64.ActiveCfg = Release|x64
+		{EC136BAE-A145-4D46-A041-384B3939ADB1}.Release|x64.Build.0 = Release|x64
+		{EC136BAE-A145-4D46-A041-384B3939ADB1}.Release|x86.ActiveCfg = Release|Win32
+		{EC136BAE-A145-4D46-A041-384B3939ADB1}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22A7295D-A8BE-4A86-9964-5C74021C0F3E} = {A5ACC97E-B20C-476C-A39C-6ACF963A2C9F}
+		{EC136BAE-A145-4D46-A041-384B3939ADB1} = {9E670A75-6392-4463-A81F-B1279582EB5C}
+		{9E670A75-6392-4463-A81F-B1279582EB5C} = {11DD3850-CA4A-42F0-8CA0-E715BEECD5DD}
+		{60C77120-3D8E-4184-A9E5-0A3A2C23AA07} = {9E670A75-6392-4463-A81F-B1279582EB5C}
+		{3DA8A427-9877-420B-A057-94D960B62E61} = {9E670A75-6392-4463-A81F-B1279582EB5C}
+		{93B30624-716B-4A5B-A764-2EA3E5E28935} = {9E670A75-6392-4463-A81F-B1279582EB5C}
+		{863EAED6-0162-4F34-A635-5290D83AB9A1} = {9E670A75-6392-4463-A81F-B1279582EB5C}
+		{0EA03AFF-093E-4C9F-BEE2-FF31D2A55825} = {9E670A75-6392-4463-A81F-B1279582EB5C}
+		{A5ACC97E-B20C-476C-A39C-6ACF963A2C9F} = {11DD3850-CA4A-42F0-8CA0-E715BEECD5DD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC011449-9B02-4E36-ABBA-6B2A307040D7}
+	EndGlobalSection
+EndGlobal
